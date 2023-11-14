@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/postuler.css">
+    <title>Postulez</title>
+</head>
+<body>
+    <header>
+
+        <div class="entete">
+           <div class="logo">
+             <div class="image_logo">
+                <a href="../HTML/index.html"><img src="../Images/logo/emploi1.png" alt="logo" class="img_logo"></a>
+             </div>
+        
+           </div>
+
+           <nav class="sign"> 
+            <ul>
+                <a class="connexion" href="../HTML/connexion.html"><li>Connexion</li></a>
+                <a class="inscription" href="../HTML/inscription.html"><li>Inscription</li></a>
+            </ul>
+          </nav>
+        </div>
+        
+       <div class="navigation">
+        <nav>
+            <ul>
+                <a class="lien1" href="./index.html"><li>Home</li></a>
+                <a class="lien2" href="#"><li>About us</li></a>
+                <a class="lien4" href="#"><li>Forum</li></a>
+                <a class="lien5" href="#"><li>Contacts</li></a>
+                <a class="lien3" href="./postuler.html"><li>Postuler</li></a>
+            </ul>
+        </nav>
+       </div>
+       
+    </header>
+
+    <main>
+        <h1> POSTULEZ</h1>
+    <form method="post" action="">
+ 
+        <fieldset class="razz">
+            <legend>Vos coordonnées</legend> 
+
+            <div class="form">
+                <div class="formulaire">
+                    <div class="nom"> 
+                        <label for="nom">Nom</label><br/>
+                        <input type="text" name="nom" id="nom" required/>
+                    </div> 
+
+                    <div class="nom"> 
+                        <label for="prenom">Prénom</label><br/>
+                        <input type="text" name="prenom" id="prenom" required/>
+                    </div>
+
+                    <div class="nom"> 
+                        <label for="email">Email</label><br/>
+                        <input type="email" name="email" id="email" required/>
+                    </div>
+
+                    <div class="nom"> 
+                        <label for="tel">Téléphone</label><br/>
+                        <input type="tel" name="tel" id="tel" required/>
+                    </div>
+
+                    <div class="nom"> 
+                        <label for="comment">Message</label><br/>
+                        <textarea name="comment" id="comment" rows="5" cols="5" placeholder="Laissez un message" required></textarea>
+                    </div>
+                </div>
+                 
+                <div class="btn">
+                    <input type="submit" class="button" value="Postulez">
+                </div>
+            </div>
+            
+        </fieldset>  
+     </form>
+    </main>
+
+    <footer class="postul">   
+        <p>@Copyright 2022</p>
+    </footer>
+    
+</body>
+</html>
